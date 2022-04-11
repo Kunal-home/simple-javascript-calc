@@ -1,0 +1,49 @@
+body{
+    background-color:rgb(61, 3, 90);
+    margin: 0px;
+    animation:faid 1.45s forwards;
+
+}
+@keyframes faid {
+    0%{
+        background-color: white;
+        opacity: 0%;
+    }
+    100%{
+        background-color: rgb(61, 3, 90);
+        opacity: 100%;
+    }
+}
+
+#buttons{
+   
+    margin-top:20px;
+    text-align: center;
+   display: flex;
+   justify-content: center;
+   
+}
+.button {
+    border: none;
+    background-color: white;
+    width: 20vw;
+    height: 10vh;
+    border-radius:5px;
+    font-size: 29px;
+    cursor: pointer;
+
+    
+}
+button{
+    width:100%;
+    height: 100%;
+    font-size: 29px;
+    border: none;
+    padding: 0px;
+}
+button:hover{
+    background-color: rgb(218, 200, 177);
+}
+#button1{
+    height: 30vh;
+}
